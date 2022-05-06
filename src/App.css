@@ -10,10 +10,11 @@ body{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,22 @@ body{
 .App-link {
   color: #61dafb;
 }
+
+button{
+  background-color: #282c34;
+  color:#fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius:2px;
+}
+
+button:hover{
+    background: #fff;
+    color:rgb(49, 49, 49);
+    transition: all 0.3s ease-out;
+}
+
 
 @keyframes App-logo-spin {
   from {

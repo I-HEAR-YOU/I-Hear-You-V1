@@ -24,3 +24,19 @@
     color: rgb(48, 45, 45);
     transition: all 0.3s ease-out;
 }
+/* .navbar{
+    background: #2A384D;
+   
+} */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 40px 0;
+}
+.navbar-logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
